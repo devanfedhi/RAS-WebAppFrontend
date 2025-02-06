@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 150px;
+    text-transform: lowercase;
+    
+    border-bottom: 2px dashed var(--softest-text-color);
+
+    padding-bottom: 30px;
+    h1 {
+      margin-bottom: 30px;
+    }
+  
+    h2 {
+      font-weight: 500;
+      font-size: 32px;
+    }
+
+
+  }
+  
+  .techList {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+      flex-wrap: wrap;
+      list-style-type: none;
+      /* border: 2px solid red; */
+      padding-left: 5px;
+  }
+  
+  .data {
+  
+      color: var(--softer-text-color);
+      border: 2px solid var(--softest-text-color);
+      border-radius: 5px;
+      /* user-select: none; */
+  
+      h6 {
+          margin: 5px 12px 5px 12px;
+      }
+  }
+  
+@media (width < 800px) {
+  .container {
+    h2 {
+      font-size: 26px;
+    }
+  }
+
+    
+}

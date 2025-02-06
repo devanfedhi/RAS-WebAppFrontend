@@ -1,0 +1,45 @@
+.container {
+    text-transform: lowercase;
+}
+
+
+
+.contentLeft {
+    text-align: left;
+}
+
+.contentRight {
+    text-align: right;
+}
+.title {
+    margin-bottom: 1px;
+}
+
+.company {
+    margin-bottom: 15px;
+}
+
+.duration {
+    display: flex;
+    align-items: center;
+}
+
+.durationLeft {
+    justify-content: flex-start;
+} 
+
+.durationRight {
+    justify-content: flex-end;
+}
+
+.icon {
+    size: 20px;
+}
+
+.iconLeft {
+    margin-right: 10px;
+}
+
+.iconRight {
+    margin-left: 10px;
+}

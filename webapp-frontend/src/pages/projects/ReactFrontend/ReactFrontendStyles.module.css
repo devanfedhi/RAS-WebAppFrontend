@@ -1,0 +1,17 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 30px;
+  
+}
+  
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    h2 {
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,13 @@
+.container {
+    text-align: center;
+
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+    p {
+        font-size: 13px;
+        color: var(--footer-text-color);
+    }
+
+}

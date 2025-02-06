@@ -1,0 +1,20 @@
+.container {
+    text-transform: lowercase;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.title {
+    margin-bottom: 1px;
+
+}
+
+.subtitle {
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 15px;
+}
+
+.description {
+}

@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    text-transform: lowercase;
+
+}
+
+.techList {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+
+.techList li::before {
+    content: '•'; 
+    color: var(--softer-text-color); 
+    display: inline-block;
+    width: 1em;
+
+}
+
+.title {
+    margin-bottom: 1px;
+    text-transform: lowercase;
+    display: flex;
+
+    width: calc(100%/3);
+    word-break: break-word;
+    hyphens: auto;
+}
+
+.data {
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--softer-text-color);
+}
+
+.technologies {
+    width: calc(200%/3);
+}
+
+@media (width >= 800px) {
+	.data {
+        font-size: 20px;
+    }
+	
+}
