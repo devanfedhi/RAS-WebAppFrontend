@@ -20,7 +20,7 @@ function Pagination({totalProjects, projectsPerPage, setCurrentPage, currentPage
             {pages.map((page) => {
                 return (<li key={page} className={`${styles.item} ${page === currentPage ? styles.selected : ''}`} onClick={() => setCurrentPage(page)}><h6>{page}</h6></li>);
             })}
-            <li className={`${styles.item} ${currentPage === totalPages ? styles.hidden : ''}`} onClick={() => setCurrentPage(currentPage+1)}><UilAngleRight className={styles.icon}d /></li>
+            <li className={`${styles.item} ${currentPage === totalPages ? styles.hidden : ''}`} onClick={() => setCurrentPage(currentPage+1)}><UilAngleRight className={styles.icon} /></li>
         </ul>
 
     </section>

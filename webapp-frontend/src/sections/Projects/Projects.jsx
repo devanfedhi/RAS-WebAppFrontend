@@ -11,9 +11,11 @@ function Projects() {
 
   useEffect(() => {
     const handleResize = () => {
+      const newProjectPerPage = window.innerWidth < 620 ? 2 : window.innerWidth < 1200 ? 4 : 6;
+      if (newProjectPerPage !== projectsPerPage) {
+        setCurrentPage(1);
+      }
       setScreenWidth(window.innerWidth);
-      setCurrentPage(1);
-      window.location.reload();
     };
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
